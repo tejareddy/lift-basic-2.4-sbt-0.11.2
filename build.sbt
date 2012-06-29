@@ -30,3 +30,5 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "0.9.26" % "compile->default",
   "postgresql" % "postgresql" % "9.0-801.jdbc4" % "compile->default"
 )
+
+port in container.Configuration := 8888
